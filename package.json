@@ -1,0 +1,11 @@
+{
+  "name": "hawaii-settings",
+  "version": "0.0.1",
+  "description": "hawaii settings",
+  "main": "index.js",
+  "author": "henryleu@126.com",
+  "license": "",
+  "dependencies": {
+    "sails-mongo": "^0.10.4"
+  }
+}
