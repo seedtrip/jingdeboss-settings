@@ -1,7 +1,7 @@
 var settings = module.exports = {
   env: {
     NODE_ENV: 'development',
-    PORT: 3008,
+    PORT: 3010,
     BINDIP: "0.0.0.0"
   },
   title: '',
