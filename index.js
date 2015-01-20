@@ -12,7 +12,7 @@ var settings = module.exports = {
   session_secret: 'QysQcRcr',
   session_store: 'connect-mongo',
   session_store_settings: {
-    url: 'mongodb://localhost:27017/leport-session'
+    url: 'mongodb://localhost:27017/seedtrip-session'
   },
   client_id: 'leport',
   client_secret: '2zBR8KSn',
@@ -23,7 +23,7 @@ var settings = module.exports = {
     connections: {
       mongo: {
         adapter: 'mongo',
-        url: 'mongodb://localhost:27017/leport-waterline'
+        url: 'mongodb://localhost:27017/seedtrip'
       }
     }
   }

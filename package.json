@@ -1,11 +1,11 @@
 {
   "name": "sanya-settings",
-  "version": "0.0.1",
+  "version": "0.1.0-SNAPSHOT",
   "description": "sanya settings",
   "main": "index.js",
   "author": "henryleu@126.com",
   "license": "",
   "dependencies": {
-    "sails-mongo": "^0.10.4"
+    "sails-mongo": "^0.10.5"
   }
 }
