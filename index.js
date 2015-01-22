@@ -16,6 +16,12 @@ var settings = module.exports = {
   },
   client_id: 'leport',
   client_secret: '2zBR8KSn',
+
+  mongo: {
+    host: "localhost",
+    port: 27017,
+    db: "seedtrip"
+  },
   waterline_settings: {
     adapters: {
       mongo: require('sails-mongo')
