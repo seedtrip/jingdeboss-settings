@@ -26,17 +26,6 @@ var settings = module.exports = {
     host: "localhost",
     port: 27017,
     db: "seedtrip"
-  },
-  waterline_settings: {
-    adapters: {
-      mongo: require('sails-mongo')
-    },
-    connections: {
-      mongo: {
-        adapter: 'mongo',
-        url: 'mongodb://localhost:27017/seedtrip'
-      }
-    }
   }
   
 };
