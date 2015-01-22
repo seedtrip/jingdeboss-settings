@@ -17,6 +17,11 @@ var settings = module.exports = {
   client_id: 'leport',
   client_secret: '2zBR8KSn',
 
+  logging: {
+    reloadSecs: 0, //INFO: set 0 could let nodeunit tests which use log4js exit properly
+    level: 'INFO'
+  },
+
   mongo: {
     host: "localhost",
     port: 27017,
