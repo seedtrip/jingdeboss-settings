@@ -2,6 +2,10 @@
   "name": "sanya-settings",
   "version": "0.1.0-SNAPSHOT",
   "description": "sanya settings",
+  "repository": {
+    "type": "https",
+    "url": "https://coding.net/henryleu/sanya-settings.git"
+  },
   "main": "index.js",
   "author": "henryleu@126.com",
   "license": "",
