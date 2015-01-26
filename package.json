@@ -1,5 +1,6 @@
 {
   "name": "sanya-settings",
+  "version": "0.1.0-SNAPSHOT",
   "description": "sanya settings",
   "repository": {
     "type": "https",
