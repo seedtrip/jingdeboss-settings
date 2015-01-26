@@ -25,7 +25,7 @@ var settings = module.exports = {
 
   redis:{
     mode:'single',
-    host: '192.168.1.50',
+    host: '127.0.0.1',
     port: 6379,
     auth:'',
     sentinel: {
@@ -35,7 +35,7 @@ var settings = module.exports = {
   },
 
   mongo: {
-    host: "192.168.1.50",
+    host: "127.0.0.1",
     port: 27017,
     db: "seedtrip"
   }
