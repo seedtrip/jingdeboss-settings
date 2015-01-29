@@ -8,12 +8,6 @@ var settings = module.exports = {
   hostname: 'localhost',
   auth_prefix: '/auth',
   controller_prefix: '/controller',
-  session_name: 'hwEyBWJX',
-  session_secret: 'QysQcRcr',
-  session_store: 'connect-mongo',
-  session_store_settings: {
-    url: 'mongodb://localhost:27017/seedtrip-session'
-  },
   client_id: 'leport',
   client_secret: '2zBR8KSn',
 
@@ -38,8 +32,15 @@ var settings = module.exports = {
     host: "127.0.0.1",
     port: 27017,
     db: "seedtrip"
+  },
+
+  session: {
+    store: {
+      name: 'redis',
+      secretKey: 'quick'
+    },
+    expires: 60 // minutes
   }
-  
 };
 
 settings.root_url = 'http://' + settings.hostname;
