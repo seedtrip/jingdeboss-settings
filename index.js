@@ -35,10 +35,7 @@ var settings = module.exports = {
   },
 
   session: {
-    store: {
-      name: 'redis',
-      secretKey: 'quick'
-    },
+    secretKey: 'quick',
     expires: 60 // minutes
   }
 };
