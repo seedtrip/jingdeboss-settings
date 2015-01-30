@@ -12,6 +12,11 @@ var settings = module.exports = {
   client_secret: '2zBR8KSn',
 
   secretKey: 'quick',
+
+  api: {
+    url: 'http://192.168.1.50:3010/api'
+  },
+
   logging: {
     reloadSecs: 0, //INFO: set 0 could let nodeunit tests which use log4js exit properly
     level: 'INFO'
