@@ -43,7 +43,12 @@ var settings = module.exports = {
     secretKey: 'quick',
     expires: 60 // minutes
   },
-  
+
+  qiniu: {
+    appKey: '',
+    appSecret: ''
+  },
+
   resources: {
     app: {
       name: "种子旅行"
