@@ -42,6 +42,12 @@ var settings = module.exports = {
   session: {
     secretKey: 'quick',
     expires: 60 // minutes
+  },
+
+  resources: {
+    app: {
+      name: "种子旅行"
+    }
   }
 };
 
