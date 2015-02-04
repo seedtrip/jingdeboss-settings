@@ -1,0 +1,2 @@
+# sanya-settings
+demo
