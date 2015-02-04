@@ -1,2 +1,2 @@
 # sanya-settings
-demo
+test
