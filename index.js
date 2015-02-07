@@ -13,6 +13,13 @@ var settings = module.exports = {
 
   secretKey: 'quick',
 
+  app: {
+    host: '127.0.0.1',
+    port: 3010,
+    domain: 'boss.zzlx.me',
+    context: '/'
+  },
+
   api: {
     url: 'http://127.0.0.1:3010/api'
   },
