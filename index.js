@@ -56,6 +56,11 @@ var settings = module.exports = {
     appSecret: ''
   },
 
+  weixin: {
+    appKey: 'wxa1bfbb003f402f4e',
+    appSecret: '8e96e0ec8de23cda1a2e68a12720fbb7'
+  },
+
   resources: {
     app: {
       name: "种子旅行"
