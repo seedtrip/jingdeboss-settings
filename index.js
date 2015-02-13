@@ -14,14 +14,14 @@ var settings = module.exports = {
   secretKey: 'quick',
 
   app: {
-    host: '192.168.1.50',
+    host: '123.150.207.18',
     port: 3010,
     domain: 'boss.zzlx.me',
     context: '/'
   },
 
   api: {
-    url: 'http://192.168.1.50:3010/api'
+    url: 'http://123.150.207.18:3010/api'
   },
 
   logging: {
@@ -31,17 +31,17 @@ var settings = module.exports = {
 
   redis:{
     mode:'single',
-    host: '192.168.1.50',
+    host: '127.0.0.1',
     port: 6379,
     auth:'',
     sentinel: {
-      hosts:[{host: '192.168.1.50', port: 26379}],
+      hosts:[{host: '123.150.207.18', port: 26379}],
       masterName:'mymaster'
     }
   },
 
   mongo: {
-    host: "192.168.1.50",
+    host: "127.0.0.1",
     port: 27017,
     db: "seedtrip"
   },
