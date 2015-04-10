@@ -1,5 +1,11 @@
 var settings = module.exports = {
   env: {
+    name: 'ci',
+    mode: 'development',
+    host: '127.0.0.1',
+    port: 3020,
+    bindIp: "0.0.0.0",
+
     NODE_ENV: 'development',
     PORT: 3010,
     BINDIP: "0.0.0.0"
@@ -17,13 +23,13 @@ var settings = module.exports = {
     protocol: 'http',
     host: '127.0.0.1',
     port: 3010,
-    domain: 'dev.www.zz365.com.cn',
+    domain: 'ci.www.zz365.com.cn',
     domainPort: 80,
     context: '/'
   },
 
   api: {
-    url: 'http://127.0.0.1:3010/api'
+    url: 'http://ci.www.zz365.com.cn/api'
   },
 
   logging: {
@@ -61,6 +67,11 @@ var settings = module.exports = {
   qiniu: {
     appKey: '',
     appSecret: ''
+  },
+
+  wechat: {
+    appKey: 'wxa51b0be8694ba7b5',
+    appSecret: '23c92d23482f991426894c40dcf07452'
   },
 
   resources: {
