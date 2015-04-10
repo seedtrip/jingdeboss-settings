@@ -23,13 +23,13 @@ var settings = module.exports = {
     protocol: 'http',
     host: '127.0.0.1',
     port: 3010,
-    domain: 'www.zz365.com.cn',
+    domain: 'boss.zz365.com.cn',
     domainPort: 80,
     context: '/'
   },
 
   api: {
-    url: 'http://www.zz365.com.cn/api'
+    url: 'http://boss.zz365.com.cn/api'
   },
 
   logging: {
