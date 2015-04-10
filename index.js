@@ -3,7 +3,7 @@ var settings = module.exports = {
     name: 'ci',
     mode: 'development',
     host: '127.0.0.1',
-    port: 3020,
+    port: 3010,
     bindIp: "0.0.0.0",
 
     NODE_ENV: 'development',
