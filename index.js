@@ -1,32 +1,34 @@
 var settings = module.exports = {
   env: {
+    name: 'dev',
+    mode: 'development',
+    host: '127.0.0.1',
+    port: 3010,
+    bindIp: "0.0.0.0",
+
     NODE_ENV: 'development',
     PORT: 3010,
     BINDIP: "0.0.0.0"
   },
-  title: '',
-  hostname: 'localhost',
-  auth_prefix: '/auth',
-  controller_prefix: '/controller',
-  client_id: 'leport',
-  client_secret: '2zBR8KSn',
 
   secretKey: 'quick',
 
   app: {
+    protocol: 'http',
     host: '127.0.0.1',
     port: 3010,
-    domain: 'boss.zzlx.me',
+    domain: 'dev.boss.zz365.com.cn',
+    domainPort: 80,
     context: '/'
   },
 
   api: {
-    url: 'http://127.0.0.1:3010/api'
+    url: 'http://dev.boss.zz365.com.cn/api'
   },
 
   logging: {
     reloadSecs: 0, //INFO: set 0 could let nodeunit tests which use log4js exit properly
-    level: 'INFO'
+    level: 'DEBUG'
   },
 
   redis:{
@@ -51,14 +53,19 @@ var settings = module.exports = {
     expires: 60 // minutes
   },
 
+  weixin: {
+    appKey: 'wxa51b0be8694ba7b5',
+    appSecret: '23c92d23482f991426894c40dcf07452'
+  },
+
   qiniu: {
     appKey: '',
     appSecret: ''
   },
 
-  weixin: {
-    appKey: 'wxa1bfbb003f402f4e',
-    appSecret: '8e96e0ec8de23cda1a2e68a12720fbb7'
+  wechat: {
+    appKey: 'wxa51b0be8694ba7b5',
+    appSecret: '23c92d23482f991426894c40dcf07452'
   },
 
   resources: {
@@ -67,9 +74,3 @@ var settings = module.exports = {
     }
   }
 };
-
-settings.root_url = 'http://' + settings.hostname;
-if (settings.env.PORT && settings.env.PORT !== 80) {
-  settings.root_url += ':' + settings.env.PORT;
-}
-settings.cookie_secret = settings.session_secret;
