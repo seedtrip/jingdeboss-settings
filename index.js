@@ -75,7 +75,7 @@ var settings = module.exports = {
   },
 
   locationServer: {
-    host: 'http://api.map.baidu.com',
+    host: 'api.map.baidu.com',
     port: 80,
     ak: 'PwCZ3FQOyXeHDQKRQZvsrL8k'
 
