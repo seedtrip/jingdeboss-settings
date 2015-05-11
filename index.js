@@ -72,12 +72,11 @@ var settings = module.exports = {
     host: 'api.map.baidu.com',
     port: 80,
     ak: 'PwCZ3FQOyXeHDQKRQZvsrL8k'
-
   },
 
   resources: {
     app: {
-      name: "快乐种子"
+      name: "快乐种子BOSS"
     }
   }
 };
