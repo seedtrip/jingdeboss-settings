@@ -10,12 +10,6 @@ var settings = module.exports = {
     PORT: 3010,
     BINDIP: "0.0.0.0"
   },
-  title: '',
-  hostname: 'localhost',
-  auth_prefix: '/auth',
-  controller_prefix: '/controller',
-  client_id: 'leport',
-  client_secret: '2zBR8KSn',
 
   secretKey: 'quick',
 
@@ -24,12 +18,12 @@ var settings = module.exports = {
     host: '127.0.0.1',
     port: 3010,
     domain: 'ci.boss.zz365.com.cn',
-    domainPort: 80,
+    domainPort: 8000,
     context: '/'
   },
 
   api: {
-    url: 'http://ci.boss.zz365.com.cn/api'
+    url: 'http://ci.boss.zz365.com.cn:8000/api'
   },
 
   logging: {
@@ -80,9 +74,3 @@ var settings = module.exports = {
     }
   }
 };
-
-settings.root_url = 'http://' + settings.hostname;
-if (settings.env.PORT && settings.env.PORT !== 80) {
-  settings.root_url += ':' + settings.env.PORT;
-}
-settings.cookie_secret = settings.session_secret;
