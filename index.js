@@ -70,7 +70,7 @@ var settings = module.exports = {
 
   resources: {
     app: {
-      name: "种子旅行"
+      name: "快乐种子"
     }
   }
 };
