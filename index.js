@@ -68,6 +68,13 @@ var settings = module.exports = {
     appSecret: '23c92d23482f991426894c40dcf07452'
   },
 
+  locationServer: {
+    host: 'api.map.baidu.com',
+    port: 80,
+    ak: 'PwCZ3FQOyXeHDQKRQZvsrL8k'
+
+  },
+
   resources: {
     app: {
       name: "快乐种子"
