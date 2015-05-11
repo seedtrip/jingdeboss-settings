@@ -1,27 +1,29 @@
 var settings = module.exports = {
   env: {
-    NODE_ENV: 'development',
+    name: 'prd',
+    mode: 'production',
+    host: '127.0.0.1',
+    port: 3010,
+    bindIp: "0.0.0.0",
+
+    NODE_ENV: 'production',
     PORT: 3010,
     BINDIP: "0.0.0.0"
   },
-  title: '',
-  hostname: 'localhost',
-  auth_prefix: '/auth',
-  controller_prefix: '/controller',
-  client_id: 'leport',
-  client_secret: '2zBR8KSn',
 
   secretKey: 'quick',
 
   app: {
-    host: '123.150.207.18',
+    protocol: 'http',
+    host: '127.0.0.1',
     port: 3010,
-    domain: 'boss.zzlx.me',
+    domain: 'boss.zz365.com.cn',
+    domainPort: 80,
     context: '/'
   },
 
   api: {
-    url: 'http://123.150.207.18:3010/api'
+    url: 'http://boss.zz365.com.cn/api'
   },
 
   logging: {
@@ -33,7 +35,7 @@ var settings = module.exports = {
     mode:'single',
     host: '127.0.0.1',
     port: 6379,
-    auth:'',
+    auth:'easyway123',
     sentinel: {
       hosts:[{host: '123.150.207.18', port: 26379}],
       masterName:'mymaster'
@@ -43,7 +45,9 @@ var settings = module.exports = {
   mongo: {
     host: "127.0.0.1",
     port: 27017,
-    db: "seedtrip"
+    db: "seedtrip",
+    username: '',
+    password: ''
   },
 
   session: {
@@ -51,26 +55,31 @@ var settings = module.exports = {
     expires: 60 // minutes
   },
 
+  weixin: {
+    appKey: 'wxa1bfbb003f402f4e',
+    appSecret: '8e96e0ec8de23cda1a2e68a12720fbb7'
+  },
+
   qiniu: {
     appKey: '',
     appSecret: ''
   },
 
-  weixin: {
+  wechat: {
     appKey: 'wxa1bfbb003f402f4e',
     appSecret: '8e96e0ec8de23cda1a2e68a12720fbb7'
   },
   
+  locationServer: {
+    host: 'api.map.baidu.com',
+    port: 80,
+    ak: 'PwCZ3FQOyXeHDQKRQZvsrL8k'
+
+  },
+
   resources: {
     app: {
-      name: "种子旅行"
+      name: "快乐种子BOSS"
     }
   }
-
 };
-
-settings.root_url = 'http://' + settings.hostname;
-if (settings.env.PORT && settings.env.PORT !== 80) {
-  settings.root_url += ':' + settings.env.PORT;
-}
-settings.cookie_secret = settings.session_secret;
