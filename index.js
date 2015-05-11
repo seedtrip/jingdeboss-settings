@@ -37,7 +37,7 @@ var settings = module.exports = {
     port: 6379,
     auth:'easyway123',
     sentinel: {
-      hosts:[{host: '123.150.207.18', port: 26379}],
+      hosts:[{host: '127.0.0.1', port: 26379}],
       masterName:'mymaster'
     }
   },
