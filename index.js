@@ -46,8 +46,8 @@ var settings = module.exports = {
     host: "127.0.0.1",
     port: 27017,
     db: "seedtrip",
-    username: '',
-    password: ''
+    username: 'seedtrip',
+    password: 'Zhongjing'
   },
 
   session: {
