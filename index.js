@@ -1,6 +1,6 @@
 var settings = module.exports = {
   env: {
-    name: 'prd',
+    name: 'qa',
     mode: 'production',
     host: '127.0.0.1',
     port: 3010,
@@ -17,13 +17,13 @@ var settings = module.exports = {
     protocol: 'http',
     host: '127.0.0.1',
     port: 3010,
-    domain: 'boss.zz365.com.cn',
+    domain: 'qa.boss.zz365.com.cn',
     domainPort: 80,
     context: '/'
   },
 
   api: {
-    url: 'http://boss.zz365.com.cn/api'
+    url: 'http://qa.boss.zz365.com.cn:8000/api'
   },
 
   logging: {
