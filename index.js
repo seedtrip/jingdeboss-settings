@@ -35,7 +35,7 @@ var settings = module.exports = {
     mode:'single',
     host: '127.0.0.1',
     port: 6379,
-    auth:'easyway123',
+    auth:'Zhongjing',
     sentinel: {
       hosts:[{host: '127.0.0.1', port: 26379}],
       masterName:'mymaster'
