@@ -23,7 +23,7 @@ var settings = module.exports = {
   },
 
   api: {
-    url: 'http://qa.boss.zz365.com.cn:8000/api'
+    url: 'http://qa.boss.zz365.com.cn:8001/api'
   },
 
   logging: {
