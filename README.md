@@ -1,1 +1,1 @@
-#sanya-settings
+#jingdeboss-settings

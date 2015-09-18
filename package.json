@@ -1,13 +1,13 @@
 {
-  "name": "sanya-settings",
+  "name": "jingdeboss-settings",
   "version": "0.1.0-SNAPSHOT",
-  "description": "sanya settings",
+  "description": "jingdeboss settings",
   "repository": {
     "type": "https",
-    "url": "https://github.com/seedtrip/sanya-settings.git"
+    "url": "https://github.com/seedtrip/jingdeboss-settings.git"
   },
   "main": "index.js",
-  "author": "henryleu@126.com",
+  "author": "mexica@126.com",
   "license": "",
   "dependencies": {
   }
