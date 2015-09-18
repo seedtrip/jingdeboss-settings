@@ -1,13 +1,13 @@
 var settings = module.exports = {
   env: {
     name: 'ci',
-    mode: 'development',
+    mode: 'production',
     host: '127.0.0.1',
-    port: 3010,
+    port: 3060,
     bindIp: "0.0.0.0",
 
-    NODE_ENV: 'development',
-    PORT: 3010,
+    NODE_ENV: 'production',
+    PORT: 3060,
     BINDIP: "0.0.0.0"
   },
 
@@ -16,14 +16,14 @@ var settings = module.exports = {
   app: {
     protocol: 'http',
     host: '127.0.0.1',
-    port: 3010,
-    domain: 'ci.boss.zz365.com.cn',
+    port: 3060,
+    domain: 'ci.www.zjy365.net',
     domainPort: 8000,
     context: '/'
   },
 
   api: {
-    url: 'http://ci.boss.zz365.com.cn:8000/api'
+    url: 'http://ci.www.zjy365.net/api'
   },
 
   logging: {
@@ -79,7 +79,7 @@ var settings = module.exports = {
 
   resources: {
     app: {
-      name: "快乐种子"
+      name: "景德镇boss"
     }
   }
 };
