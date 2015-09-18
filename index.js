@@ -17,13 +17,13 @@ var settings = module.exports = {
     protocol: 'http',
     host: '127.0.0.1',
     port: 3060,
-    domain: 'ci.www.zjy365.net',
+    domain: 'ci.boss.zjy365.net',
     domainPort: 8000,
     context: '/'
   },
 
   api: {
-    url: 'http://ci.www.zjy365.net/api'
+    url: 'http://ci.boss.zjy365.net/api'
   },
 
   logging: {
