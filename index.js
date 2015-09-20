@@ -3,11 +3,11 @@ var settings = module.exports = {
     name: 'dev',
     mode: 'development',
     host: '127.0.0.1',
-    port: 3010,
+    port: 3060,
     bindIp: "0.0.0.0",
 
     NODE_ENV: 'development',
-    PORT: 3010,
+    PORT: 3060,
     BINDIP: "0.0.0.0"
   },
 
@@ -16,14 +16,14 @@ var settings = module.exports = {
   app: {
     protocol: 'http',
     host: '127.0.0.1',
-    port: 3010,
+    port: 3060,
     domain: 'dev.boss.zz365.com.cn',
     domainPort: 80,
     context: '/'
   },
 
   api: {
-    url: 'http://dev.boss.zz365.com.cn/api'
+    url: 'http://127.0.0.1:3060/api'
   },
 
   logging: {
@@ -76,7 +76,7 @@ var settings = module.exports = {
 
   resources: {
     app: {
-      name: "快乐种子BOSS"
+      name: "景德镇BOSS"
     }
   }
 };
