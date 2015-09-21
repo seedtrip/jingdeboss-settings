@@ -1,12 +1,12 @@
 var settings = module.exports = {
   env: {
     name: 'ci',
-    mode: 'production',
+    mode: 'development',
     host: '127.0.0.1',
     port: 3060,
     bindIp: "0.0.0.0",
 
-    NODE_ENV: 'production',
+    NODE_ENV: 'development',
     PORT: 3060,
     BINDIP: "0.0.0.0"
   },
