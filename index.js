@@ -23,7 +23,7 @@ var settings = module.exports = {
   },
 
   api: {
-    url: 'http://ci.boss.zjy365.net/api'
+    url: 'http://ci.boss.zjy365.net:8000/api'
   },
 
   logging: {
